@@ -50,7 +50,7 @@ class Logo: UIView {
 		if let context = UIGraphicsGetCurrentContext() {
 			
 		
-			// BottomLine
+			// LeftBottomLine
 			
 			context.move(to: CGPoint(x: 78,
 									 y: 249.5))
@@ -60,7 +60,7 @@ class Logo: UIView {
 			context.setLineWidth(borderWidth)
 			context.strokePath()
 			
-			// RightLine
+			// LeftRightLine
 			context.move(to: CGPoint(x: 132.5,
 									 y: 157))
 			context.addLine(to: CGPoint(x: 187,
@@ -69,7 +69,7 @@ class Logo: UIView {
 			context.setLineWidth(borderWidth)
 			context.strokePath()
 			
-			// LeftLine
+			// LeftLeftLine
 			context.move(to: CGPoint(x: 78,
 									 y: 249.5))
 			context.addLine(to: CGPoint(x: 132.5,
@@ -78,7 +78,7 @@ class Logo: UIView {
 			context.setLineWidth(borderWidth)
 			context.strokePath()
 			
-			// LeftBottomLine
+			// -LeftBottomLine
 			context.move(to: CGPoint(x: 132.5,
 									 y: 346.5))
 			context.addLine(to: CGPoint(x: 78,
@@ -87,7 +87,7 @@ class Logo: UIView {
 			context.setLineWidth(borderWidth)
 			context.strokePath()
 			
-			// RightBottomLine
+			// -RightBottomLine
 			context.move(to: CGPoint(x: 187,
 									 y: 249.5))
 			context.addLine(to: CGPoint(x: 132.5,
@@ -105,7 +105,6 @@ class Logo: UIView {
 			context.setLineWidth(borderWidth)
 			context.strokePath()
 			
-			
 			// MiddleTopLine
 			context.move(to: CGPoint(x: 132.5,
 									 y: 157))
@@ -114,6 +113,52 @@ class Logo: UIView {
 			context.setStrokeColor(UIColor.green.cgColor)
 			context.setLineWidth(borderWidth)
 			context.strokePath()
+			
+			// RightMiddleLine
+			context.move(to: CGPoint(x: 299,
+									 y: 251.5))
+			context.addLine(to: CGPoint(x: 187,
+										y: 249.5))
+			context.setStrokeColor(UIColor.green.cgColor)
+			context.setLineWidth(borderWidth)
+			context.strokePath()
+
+			// RightRightLine
+			context.move(to: CGPoint(x: 243.5,
+									 y: 157))
+			context.addLine(to: CGPoint(x: 299,
+										y: 251.5))
+			context.setStrokeColor(UIColor.green.cgColor)
+			context.setLineWidth(borderWidth)
+			context.strokePath()
+			
+			// -RightRightLine
+			context.move(to: CGPoint(x: 243.5,
+									 y: 346.5))
+			context.addLine(to: CGPoint(x: 299,
+										y: 251.5))
+			context.setStrokeColor(UIColor.green.cgColor)
+			context.setLineWidth(borderWidth)
+			context.strokePath()
+			
+			// -RightLeftLine
+			context.move(to: CGPoint(x: 187,
+									 y: 251.5))
+			context.addLine(to: CGPoint(x: 243.5,
+										y: 346.5))
+			context.setStrokeColor(UIColor.green.cgColor)
+			context.setLineWidth(borderWidth)
+			context.strokePath()
+			
+			// -MiddleTopLine
+			context.move(to: CGPoint(x: 132.5,
+									 y: 346.5))
+			context.addLine(to: CGPoint(x: 243.5,
+										y: 346.5))
+			context.setStrokeColor(UIColor.green.cgColor)
+			context.setLineWidth(borderWidth)
+			context.strokePath()
+
 			
 		}
 		
