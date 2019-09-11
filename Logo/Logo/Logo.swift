@@ -50,10 +50,19 @@ class Logo: UIView {
 		if let context = UIGraphicsGetCurrentContext() {
 			
 			// BottomLine
-			context.move(to: CGPoint(x: 4.5,
+			context.move(to: CGPoint(x: 50,
 									 y: 249.5))
 			context.addLine(to: CGPoint(x: 304,
 										y: 249.5))
+			context.setStrokeColor(UIColor.green.cgColor)
+			context.setLineWidth(borderWidth)
+			context.strokePath()
+			
+			//LeftLineTriangle
+			context.move(to: CGPoint(x: 50,
+									 y: 249.5))
+			context.addLine(to: CGPoint(x: 154,
+										y: 2))
 			context.setStrokeColor(UIColor.green.cgColor)
 			context.setLineWidth(borderWidth)
 			context.strokePath()
