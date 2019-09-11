@@ -96,6 +96,16 @@ class Logo: UIView {
 			context.setLineWidth(borderWidth)
 			context.strokePath()
 			
+			// MiddleRightLine
+			context.move(to: CGPoint(x: 243.5,
+									 y: 157))
+			context.addLine(to: CGPoint(x: 187,
+										y: 249.5))
+			context.setStrokeColor(UIColor.green.cgColor)
+			context.setLineWidth(borderWidth)
+			context.strokePath()
+
+			
 		}
 		
     }
