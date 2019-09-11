@@ -13,6 +13,7 @@
 		F5FBB7F6232985DA00956ACF /* Logo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5FBB7F4232985DA00956ACF /* Logo.xcdatamodeld */; };
 		F5FBB7F8232985DC00956ACF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5FBB7F7232985DC00956ACF /* Assets.xcassets */; };
 		F5FBB7FB232985DC00956ACF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5FBB7F9232985DC00956ACF /* LaunchScreen.storyboard */; };
+		F5FBB8032329866800956ACF /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FBB8022329866800956ACF /* Logo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F5FBB7F7232985DC00956ACF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5FBB7FA232985DC00956ACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5FBB7FC232985DC00956ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5FBB8022329866800956ACF /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				F5FBB7ED232985DA00956ACF /* AppDelegate.swift */,
 				F5FBB7EF232985DA00956ACF /* ViewController.swift */,
 				F5FBB7F1232985DA00956ACF /* Main.storyboard */,
+				F5FBB8022329866800956ACF /* Logo.swift */,
 				F5FBB7F7232985DC00956ACF /* Assets.xcassets */,
 				F5FBB7F9232985DC00956ACF /* LaunchScreen.storyboard */,
 				F5FBB7FC232985DC00956ACF /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				F5FBB7F0232985DA00956ACF /* ViewController.swift in Sources */,
 				F5FBB7F6232985DA00956ACF /* Logo.xcdatamodeld in Sources */,
+				F5FBB8032329866800956ACF /* Logo.swift in Sources */,
 				F5FBB7EE232985DA00956ACF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
