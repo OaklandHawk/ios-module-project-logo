@@ -27,6 +27,20 @@ class Logo: UIView {
 		let lineLength = CGFloat(frame.size.width / line1.length)
 		return handEndPoint(with: line1AsRadians, and: lineLength)
 	}
+	
+	private let bgColor = UIColor.yellow
+	private let borderColor = UIColor.green
+	private let borderWidth: CGFloat = 2.0
+	
+	override init(frame: CGRect) {
+		super.init(frame: frame)
+		backgroundColor = UIColor.clear
+	}
+	
+	required init?(coder aDecoder: NSCoder) {
+		super.init(coder: aDecoder)
+		backgroundColor = UIColor.clear
+	}
 
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
