@@ -49,42 +49,52 @@ class Logo: UIView {
 		
 		if let context = UIGraphicsGetCurrentContext() {
 			
+		
 			// BottomLine
-			context.move(to: CGPoint(x: 4.5,
+			
+			context.move(to: CGPoint(x: 78,
 									 y: 249.5))
-			context.addLine(to: CGPoint(x: 304,
+			context.addLine(to: CGPoint(x: 187,
+										y: 249.5))
+			context.setStrokeColor(UIColor.green.cgColor)
+			context.setLineWidth(borderWidth)
+			context.strokePath()
+			
+			// RightLine
+			context.move(to: CGPoint(x: 132.5,
+									 y: 157))
+			context.addLine(to: CGPoint(x: 187,
 										y: 249.5))
 			context.setStrokeColor(UIColor.green.cgColor)
 			context.setLineWidth(borderWidth)
 			context.strokePath()
 			
 			// LeftLine
-			context.move(to: CGPoint(x: 4.5,
+			context.move(to: CGPoint(x: 78,
 									 y: 249.5))
-			context.addLine(to: CGPoint(x: 154,
-										y: 2))
+			context.addLine(to: CGPoint(x: 132.5,
+										y: 157))
 			context.setStrokeColor(UIColor.green.cgColor)
 			context.setLineWidth(borderWidth)
 			context.strokePath()
 			
-			// RightLine
-			context.move(to: CGPoint(x: 154,
-									 y: 2))
-			context.addLine(to: CGPoint(x: 304,
+			// LeftBottomLine
+			context.move(to: CGPoint(x: 132.5,
+									 y: 346.5))
+			context.addLine(to: CGPoint(x: 78,
 										y: 249.5))
 			context.setStrokeColor(UIColor.green.cgColor)
 			context.setLineWidth(borderWidth)
 			context.strokePath()
 			
-			// TopRightLine
-			context.move(to: CGPoint(x: 154,
-									 y: 2))
-			context.addLine(to: CGPoint(x: 305.5,
-										y: 81.5))
+			// RightBottomLine
+			context.move(to: CGPoint(x: 187,
+									 y: 249.5))
+			context.addLine(to: CGPoint(x: 132.5,
+										y: 346.5))
 			context.setStrokeColor(UIColor.green.cgColor)
 			context.setLineWidth(borderWidth)
 			context.strokePath()
-			
 			
 		}
 		
