@@ -8,19 +8,19 @@
 
 import UIKit
 
-struct Lines {
-	let width: CGFloat
-	let length: CGFloat
-	let color: UIColor
-	var value: Int = 0
-}
+//struct Lines {
+//	let width: CGFloat
+//	let length: CGFloat
+//	let color: UIColor
+//	var value: Int = 0
+//}
 
 
 class Logo: UIView {
 
-	private var line1 = Lines(width: 3.0, length: 3.0, color: .green, value: 0)
-	private var line2 = Lines(width: 3.0, length: 3.0, color: .red, value: 0)
-	private var line3 = Lines(width: 3.0, length: 3.0, color: .blue, value: 0)
+//	private var line1 = Lines(width: 3.0, length: 3.0, color: .green, value: 0)
+//	private var line2 = Lines(width: 3.0, length: 3.0, color: .red, value: 0)
+//	private var line3 = Lines(width: 3.0, length: 3.0, color: .blue, value: 0)
 	
 //	private var lineHandEndPoint: CGPoint {
 //		let line1AsRadians = Float(Double(line1.value) / 60 * 2.0 * Double.pi - Double.pi / 2)
